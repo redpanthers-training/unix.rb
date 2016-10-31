@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+directory_name = ARGV[0]
+Dir.mkdir(directory_name) unless File.exists?(directory_name)

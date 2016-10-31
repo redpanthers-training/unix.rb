@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+f= Dir.glob("*")
+puts f
