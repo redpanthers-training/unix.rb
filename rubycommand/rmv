@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'fileutils'
+FileUtils.mv(ARGV[0],ARGV[1])
