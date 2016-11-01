@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'net/ping'
+f1=Net::Ping::External.new
+flag=0
+unless flag==1
+	p f1.pingecho(ARGV[0])
+end 
