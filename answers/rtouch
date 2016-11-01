@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'fileutils'
+file=ARGV[0]
+FileUtils.touch(file)
